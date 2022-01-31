@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;  
+}
+
+.top-nav{
+    width: 100%;
+    background: rgb(76, 76, 77);
+    height: 40px;
+
+
+}
+.top-list ,.top-list-right{
+    list-style: none;
+    overflow: hidden;
+
+}
+
+.top-list li , .top-list-right li{
+    list-style: none;
+    float: left;
+    padding: 10px 15px;
+    color: #EEEDEE;
+    /* font-size: 13px; */
+}
+.top-list li:first-child{
+    padding-left: 0;
+}
+
+.top-list li i{
+    padding-right: 8px;
+}
+
+.top-list-right{
+    float: right;
+}
+.top-list-right a , .top-bar a{
+    color: #fff;
+}
+
+.top-bar, .top-bar ul {
+    background-color: #979595;
+    color: #fff;
+    font-size: 14px;
+}
+
+.top-bar li {
+    text-transform: uppercase;
+}
+.top-bar a:hover{
+    color: rgb(115, 202, 236);
+}
+.top-bar a.current{
+    color: rgb(177, 80, 80);
+    border-bottom: 3px solid rgb(177, 80, 80);
+}
+
+.top-bar span{
+    color: rgb(26, 108, 141);
+    background-color: rgb(77, 73, 73);
+    padding: 5px 9px;
+    margin-right: 4px;
+}
+
+.showcase{
+    background-image: url('https://raw.githubusercontent.com/bradtraversy/bthosting_foundation/master/img/showcase.jpg');
+    background-repeat: no-repeat;
+    min-height: 450px;
+    color: #fff;
+    width: -100px 0;
+}
+.showcase-box{
+    padding:20px 30px;
+    margin-top:30px;
+    background:rgb(46, 135, 236);
+    color:white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+  
+.showcase-box p{
+
+        border-bottom:1px #ccc solid;
+        padding-bottom:10px;
+      }
+  
+.showcase-box-bottom{
+      background: rgb(18, 114, 18);
+      padding:10px 30px;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+}
+.showcase-box-bottom .pricing span{
+        font-size:35px;
+        font-weight:bold;
+      }
+  
+.showcase-box-bottom .start-link{
+        padding-top:20px;
+}
+
+
+/* Domain Search */
+.domain-search{
+    background: gray;
+    padding:30px 20px 20px 20px;
+    border-bottom:2px #ccc solid;
+    margin-bottom:30px;
+} 
+.domain-search .domain-form input, .input-group-label{
+    border-color:rgb(145, 141, 141);
+    }
+
+  
+  /* Package Boxes */
+  .p-box-1,.p-box-2,.p-box-3{
+    text-align: center;
+}
+/* .p-box-1,.p-box-2,.p-box-3 .fa{
+    font-size:60px;
+} */
+
+/* .p-box-1,.p-box-2,.p-box-3 .features{
+    margin:20px 0 30px 0;
+} */
+
+.p-box-1,.p-box-2,.p-box-3 {
+    width: 80%
+}
+.p-box-1,.p-box-2,.p-box-3 li{
+    border-bottom:#ccc solid 1px;
+}
+
+
+  .p-box-1 .fa{
+      color:rgb(14, 14, 250);
+  }
+  .p-box-1 .pricing span{
+      font-size:35px;
+      font-weight:bold;
+      color:rgb(14, 14, 250);
+    }
+    .p-box-1 a{
+        background-color:rgb(14, 14, 250);
+      }
+      
+.p-box-2 .fa{
+
+      color:rgb(65, 189, 8);
+  }
+
+.p-box-2 .pricing span{
+      font-size:35px;
+      font-weight:bold;
+      color:rgb(65, 189, 8);
+    }
+.p-box-2 a{
+  background-color: rgb(65, 189, 8);  
+}
+  
+.p-box-3 .fa{
+      color:rgb(255, 199, 16);
+    }
+
+.p-box-3 .pricing span{
+      font-size:35px;
+      font-weight:bold;
+      color:rgb(255, 199, 16);
+ }
+ .p-box-3 a{
+    background-color:rgb(255, 199, 16);
+  }
+  
+  /* Section A */
+  .section-a{
+    margin-top:30px;
+    padding:50px 0;
+    background:gray;
+  }
+  
+  /* Section B */
+  .section-b{
+    background:rgb(58, 57, 57);
+    color:white;
+    padding:50px 0;
+    text-align: center;
+  }
+  
+  /* Section c */
+  .section-c{
+    background:#2ba6cb;
+    color:white;
+    padding:50px 0;
+    text-align: center;
+  }
+ .section-c .fa{
+      font-size:90px;
+    }
+
+  
+  .callout{
+    overflow:auto;
+  }
+  
+  .remember{
+    margin-right:4px;
+  }
+  
+  footer{
+    padding: 40px 20px;
+    background-color:rgb(173, 173, 182);;
+  }
+
